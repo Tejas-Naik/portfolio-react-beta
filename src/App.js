@@ -1,13 +1,16 @@
 import { ThemeProvider } from 'styled-components';
-import './App.css';
 import Header from './components/Header';
+import Hero from './components/Hero';
+import { GlobalStyles } from './components/styles/Global';
 
 const theme = {
   colors: {
-    primary: "#111",
+    primary: "#8892b0",
     secondary: "#222",
+    heading: "#ccd6f6",
     background: "#0a192f",
-    textDecor: "#5ff1d0"
+    textDecor: "#5ff1d0",
+    hover: "#123040"
   }
 }
 
@@ -17,8 +20,9 @@ function App() {
 
       <>
         <div className="App">
+          <GlobalStyles />
           <Header />
-          {/* Landing page */}
+          <Hero />
           {/* About me page */}
           {/* Experience */}
           {/* Projects */}

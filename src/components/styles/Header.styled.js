@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const HeaderContainer = styled.div`
-    padding: 24px 68px;
+    padding: 2.4rem 6.8rem;
     background-color: ${({ theme }) => theme.colors.background};
     color: ${({ theme }) => theme.colors.textDecor}
 `
@@ -12,16 +12,16 @@ export const NavContainer = styled.nav`
 
 `
 export const Brand = styled.a`
-    font-size: 24px;
+    font-size: 2.4rem;
     cursor: pointer;
 `
 export const Navigation = styled.ul`
     display: flex;
     align-items: center;
-    gap: 24px;
+    gap: 2.4rem;
 `;
 export const Nav = styled.li`
-    font-size: 14px;
+    font-size: 1.4rem;
     cursor: pointer;
     color: #c2ccec;
 
@@ -31,9 +31,3 @@ export const Nav = styled.li`
         margin-right: 4px;
     }
 `;
-export const Btn = styled.button`
-    font-size: 14px;
-    padding: 8px 16px;
-    border: 1px solid;
-    border-radius: 5px;
-`

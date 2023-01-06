@@ -13,7 +13,7 @@ function Header() {
                     <Nav as="a"><span>02.</span>Projects</Nav>
                     <Nav as="a"><span>03.</span>Experience</Nav>
                     <Nav as="a"><span>04.</span>Contact</Nav>
-                    <Btn as="a">Resume</Btn>
+                    <a href="/" className='btn btn--outline'>Resume</a>
                 </Navigation>
             </NavContainer>
         </HeaderContainer>
