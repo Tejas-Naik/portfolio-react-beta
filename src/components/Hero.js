@@ -1,5 +1,10 @@
 import React from 'react';
 import { HeroSection } from './styles/Hero.styled';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import FacebookIcon from '@mui/icons-material/Facebook';
 
 function Hero() {
     return (
@@ -17,6 +22,18 @@ function Hero() {
                 <p>
                     <a href="/" className='btn btn--outline'>Contact me</a>
                 </p>
+                <div className='links-left'>
+                    <a href="/" className='link'><GitHubIcon className='link-icon' /></a>
+                    <a href="/" className='link'><InstagramIcon className='link-icon' /></a>
+                    <a href="/" className='link'><TwitterIcon className='link-icon' /></a>
+                    <a href="/" className='link'><LinkedInIcon className='link-icon' /></a>
+                    <a href="/" className='link'><FacebookIcon className='link-icon' /></a>
+                    <div class="vl"></div>
+                </div>
+                <div className='links-right'>
+                    <a className='link email' href="/">rntejas2005@gmail.com</a>
+                    <div className="vl"></div>
+                </div>
             </HeroSection>
         </div>
     )

@@ -10,7 +10,8 @@ const theme = {
     heading: "#ccd6f6",
     background: "#0a192f",
     textDecor: "#5ff1d0",
-    hover: "#123040"
+    hover: "#123040",
+    link: "#a8b2d1",
   }
 }
 

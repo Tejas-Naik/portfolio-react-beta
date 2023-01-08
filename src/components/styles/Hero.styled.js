@@ -6,6 +6,7 @@ export const HeroSection = styled.section`
     display: flex;
     flex-direction: column;
     justify-content: center;
+    position: relative;
 
     .subheading {
         margin-bottom: 2rem;
@@ -24,5 +25,43 @@ export const HeroSection = styled.section`
     button {
         background: transparent;
         display: inline-block;
+    }
+
+    .links-left {
+        position: fixed;
+        top: 50%;
+        left: 3%;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+    
+    .links-left > a {
+        font-size: large;
+    }
+
+    .link-icon {
+        font-size: large;
+    }
+
+    .vl {
+        border-left: 1px solid ${({ theme }) => theme.colors.primary};
+        height: 300px;
+        align-self: center;
+    }
+
+    .links-right {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        position: fixed;
+        right: 3%;
+        top: 50%;
+    }
+
+    .email {
+        font-size: 18px;
+        writing-mode: vertical-rl;
+        text-orientation: mixed;
     }
 `

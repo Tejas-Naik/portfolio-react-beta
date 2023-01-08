@@ -94,6 +94,21 @@ p{
   transition: all 0.3s;
 }
 
+.link:link,
+.link:visited {
+  display: inline-block;
+  color: ${({ theme }) => theme.colors.link};
+  text-decoration: none;
+  padding-bottom: 2px;
+  transition: all 0.3s;
+  border-bottom: 1px solid transparent;
+}
+
+.link:hover,
+.link:active {
+  border-bottom: 1px solid currentColor;
+  color: ${({ theme }) => theme.colors.primary};
+}
 
 .btn--outline:link,
 .btn--outline:visited {
