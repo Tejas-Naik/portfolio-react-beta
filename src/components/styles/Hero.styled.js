@@ -7,9 +7,11 @@ export const HeroSection = styled.section`
     flex-direction: column;
     justify-content: center;
     position: relative;
+    margin-bottom: 6.4rem;
 
     .subheading {
         margin-bottom: 2rem;
+        font-family: 'IBM Plex Mono', monospace;
     }
 
     .fade {
@@ -25,6 +27,7 @@ export const HeroSection = styled.section`
     button {
         background: transparent;
         display: inline-block;
+        font-family: 'IBM Plex Mono', monospace;
     }
 
     .links-left {
@@ -53,6 +56,7 @@ export const HeroSection = styled.section`
     .links-right {
         display: flex;
         flex-direction: column;
+        align-items: center;
         gap: 24px;
         position: fixed;
         right: 3%;

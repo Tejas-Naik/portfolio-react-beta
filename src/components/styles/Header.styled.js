@@ -14,6 +14,7 @@ export const NavContainer = styled.nav`
 export const Brand = styled.a`
     font-size: 2.4rem;
     cursor: pointer;
+    font-family: 'IBM Plex Mono', monospace;
 `
 export const Navigation = styled.ul`
     display: flex;
@@ -29,5 +30,6 @@ export const Nav = styled.li`
         color: #64ffda;
         display: inline-block;
         margin-right: 4px;
+        font-family: 'IBM Plex Mono', monospace;
     }
 `;

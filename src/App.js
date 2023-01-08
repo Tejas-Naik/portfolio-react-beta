@@ -1,4 +1,5 @@
 import { ThemeProvider } from 'styled-components';
+import About from './components/About';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import { GlobalStyles } from './components/styles/Global';
@@ -24,7 +25,7 @@ function App() {
           <GlobalStyles />
           <Header />
           <Hero />
-          {/* About me page */}
+          <About />
           {/* Experience */}
           {/* Projects */}
           {/* Contact */}
