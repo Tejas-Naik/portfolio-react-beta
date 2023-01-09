@@ -2,6 +2,7 @@ import { ThemeProvider } from 'styled-components';
 import About from './components/About';
 import Header from './components/Header';
 import Hero from './components/Hero';
+import Projects from './components/Projects';
 import { GlobalStyles } from './components/styles/Global';
 
 const theme = {
@@ -26,6 +27,7 @@ function App() {
           <Header />
           <Hero />
           <About />
+          <Projects />
           {/* Experience */}
           {/* Projects */}
           {/* Contact */}

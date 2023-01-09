@@ -15,6 +15,12 @@ export const SectionAbout = styled.section`
         flex: .6;
     }
 
+    .heading-tertiary > span {
+        font-family: 'IBM Plex Mono', monospace;
+        color: ${({ theme }) => theme.colors.textDecor};
+        font-size: 2.4rem;
+    }
+
     .description {
         line-height: 1.5;
         margin-bottom: 2.4rem;
