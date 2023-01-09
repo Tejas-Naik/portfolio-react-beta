@@ -11,7 +11,6 @@ export const HeroSection = styled.section`
 
     .subheading {
         margin-bottom: 2rem;
-        font-family: 'IBM Plex Mono', monospace;
     }
 
     .fade {

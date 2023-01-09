@@ -63,6 +63,13 @@ p{
   margin-bottom: 3.2rem;
 }
 
+.heading-4 {
+  font-weight: 600;
+  font-size: 2.2rem;
+  line-height: 1.2;
+  margin-bottom: 2.4rem;
+}
+
 .subheading {
   display: block;
   font-size: 1.6rem;
@@ -70,6 +77,8 @@ p{
   color: ${({ theme }) => theme.colors.textDecor};
   margin-bottom: 1.6rem;
   letter-spacing: 0.75px;
+  font-family: 'IBM Plex Mono', monospace;
+
 }
 
 .description {

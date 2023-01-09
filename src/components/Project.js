@@ -1,14 +1,20 @@
 import React from 'react';
-import { ProjectContainer } from "./styles/Projects.styled"
+import { ProjectContainer, ProjectImageWrapper, ProjectTextWrapper } from "./styles/Projects.styled";
 
 
 function Project({ name, desc, img, tags }) {
     return (
         <ProjectContainer>
-            <h1>{name}</h1>
-            <p>{desc}</p>
-            <img src={img} alt={name} />
-            <p>{tags}</p>
+            <ProjectTextWrapper>
+                <span className='subheading'>Featured Project</span>
+                <h4 className='heading-4'>{name}</h4>
+                <p>{desc}</p>
+                <p>{tags}</p>
+            </ProjectTextWrapper>
+
+            <ProjectImageWrapper>
+                <img src={img} alt={name} />
+            </ProjectImageWrapper>
         </ProjectContainer>
     )
 }
